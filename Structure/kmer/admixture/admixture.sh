@@ -1,0 +1,14 @@
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 2 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 3 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 4 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 5 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 6 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 7 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 8 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 9 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 10 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 11 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 12 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 13 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 14 -j30
+admixture --cv 667XianSample_k31_sketch_Total0.1.bed 15 -j30

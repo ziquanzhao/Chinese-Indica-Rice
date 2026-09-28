@@ -1,0 +1,14 @@
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 2 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 3 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 4 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 5 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 6 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 7 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 8 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 9 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 10 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 11 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 12 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 13 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 14 -j50
+admixture --cv 667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.LDfilter.bed 15 -j50

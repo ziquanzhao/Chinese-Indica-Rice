@@ -1,0 +1,142 @@
+[2026-09-15 09:58:30] [INFO] SelectiveSweep.DCMS.Calculate.Plot.R 启动。
+[2026-09-15 09:58:30] [INFO] 输入目录：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms
+[2026-09-15 09:58:30] [INFO] 亚群对列表：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/Combination.list
+[2026-09-15 09:58:30] [INFO] BED：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/OsNIP-T2T.centromere.telomere.bed
+[2026-09-15 09:58:30] [INFO] 输出目录：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms
+[2026-09-15 09:58:30] [INFO] Top 阈值：0.05
+[2026-09-15 09:58:30] [INFO] 已知基因文件：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/StarGene_candidates.xlsx
+[2026-09-15 09:58:30] [INFO] 表型 ID：StarGene
+[2026-09-15 09:58:30] [INFO] 绘图字体：sans；ggrepel=可用。
+[2026-09-15 09:58:30] [INFO] 亚群对列表包含 6 个唯一比较。
+[2026-09-15 09:58:30] [INFO] 读取 BED：OsNIP-T2T.centromere.telomere.bed；有效屏蔽区域 31 个，涉及 12 条染色体。
+[2026-09-15 09:58:30] [INFO] 已在 StarGene_candidates.xlsx 中找到 StarGene 工作表。
+[2026-09-15 09:58:31] [INFO] 读取已知基因：StarGene_candidates.xlsx（sheet=StarGene）；有效基因=67，排除无效记录=0。
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianLandrace1.vs.CheckXianLandrace2
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianLandrace1.vs.CheckXianLandrace2.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianLandrace1.vs.CheckXianLandrace2.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianLandrace1.vs.CheckXianLandrace2.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianLandrace1.vs.CheckXianCultivar2
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianLandrace1.vs.CheckXianCultivar2.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianLandrace1.vs.CheckXianCultivar2.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianLandrace1.vs.CheckXianCultivar2.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianLandrace1.vs.CheckXianCultivar1
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianLandrace1.vs.CheckXianCultivar1.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianLandrace1.vs.CheckXianCultivar1.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianLandrace1.vs.CheckXianCultivar1.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianLandrace2.vs.CheckXianCultivar2
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianLandrace2.vs.CheckXianCultivar2.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianLandrace2.vs.CheckXianCultivar2.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianLandrace2.vs.CheckXianCultivar2.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianLandrace2.vs.CheckXianCultivar1
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianLandrace2.vs.CheckXianCultivar1.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianLandrace2.vs.CheckXianCultivar1.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianLandrace2.vs.CheckXianCultivar1.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 识别文件组：RefXianCultivar2.vs.CheckXianCultivar1
+[2026-09-15 09:58:31] [INFO]   PI    = RefXianCultivar2.vs.CheckXianCultivar1.win50000.step10000.log2_pi_ratio.pi
+[2026-09-15 09:58:31] [INFO]   FST   = RefXianCultivar2.vs.CheckXianCultivar1.win50000.step10000.windowed.weir.fst
+[2026-09-15 09:58:31] [INFO]   XPCLR = RefXianCultivar2.vs.CheckXianCultivar1.win50000.step10000.xpclr
+[2026-09-15 09:58:31] [INFO] 开始处理：RefXianLandrace1.vs.CheckXianLandrace2
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 原始区间数：PI=37607，FST=37618，XPCLR=38550。
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 三种方法共有区间=37607；各方法因不共有而排除：PI=0，FST=11，XPCLR=943；全部方法区间并集=38552，其中非三者共有=945。
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 共有区间中非有限统计值排除=284；正式分析保留=37323。
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 BED 与 372 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36951，正式 DCMS 分析仍包含=37323。
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 背景协方差矩阵：
+                   FST LOG2_PI_RATIO     XPCLR
+FST           0.013292      0.023173  0.212104
+LOG2_PI_RATIO 0.023173      0.604514  1.861013
+XPCLR         0.212104      1.861013 71.715516
+[2026-09-15 09:58:32] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 背景相关矩阵：
+                   FST LOG2_PI_RATIO    XPCLR
+FST           1.000000      0.258509 0.217241
+LOG2_PI_RATIO 0.258509      1.000000 0.282644
+XPCLR         0.217241      0.282644 1.000000
+[2026-09-15 09:58:33] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 DCMS 完成：分析窗口=37323，阈值=top 0.05，名义窗口数=1867，实际标记=1867；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianLandrace2.DCMS.list
+[2026-09-15 09:58:34] [INFO] RefXianLandrace1.vs.CheckXianLandrace2 绘图完成：入选阈值 DCMS >= 4.68845，入选窗口=1867，重叠已知基因窗口=17，已知基因=10；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianLandrace2.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianLandrace2.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:34] [INFO] 开始处理：RefXianLandrace1.vs.CheckXianCultivar2
+[2026-09-15 09:58:35] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 原始区间数：PI=37608，FST=37617，XPCLR=38550。
+[2026-09-15 09:58:36] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 三种方法共有区间=37608；各方法因不共有而排除：PI=0，FST=9，XPCLR=942；全部方法区间并集=38552，其中非三者共有=944。
+[2026-09-15 09:58:36] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 共有区间中非有限统计值排除=285；正式分析保留=37323。
+[2026-09-15 09:58:36] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 BED 与 372 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36951，正式 DCMS 分析仍包含=37323。
+[2026-09-15 09:58:36] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 背景协方差矩阵：
+                   FST LOG2_PI_RATIO      XPCLR
+FST           0.018792      0.035460   0.441738
+LOG2_PI_RATIO 0.035460      1.002531   4.930452
+XPCLR         0.441738      4.930452 219.549461
+[2026-09-15 09:58:36] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 背景相关矩阵：
+                   FST LOG2_PI_RATIO    XPCLR
+FST           1.000000      0.258346 0.217476
+LOG2_PI_RATIO 0.258346      1.000000 0.332331
+XPCLR         0.217476      0.332331 1.000000
+[2026-09-15 09:58:37] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 DCMS 完成：分析窗口=37323，阈值=top 0.05，名义窗口数=1867，实际标记=1867；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar2.DCMS.list
+[2026-09-15 09:58:38] [INFO] RefXianLandrace1.vs.CheckXianCultivar2 绘图完成：入选阈值 DCMS >= 4.58297，入选窗口=1867，重叠已知基因窗口=22，已知基因=9；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar2.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar2.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:38] [INFO] 开始处理：RefXianLandrace1.vs.CheckXianCultivar1
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 原始区间数：PI=37610，FST=37622，XPCLR=38550。
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 三种方法共有区间=37610；各方法因不共有而排除：PI=0，FST=12，XPCLR=940；全部方法区间并集=38552，其中非三者共有=942。
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 共有区间中非有限统计值排除=287；正式分析保留=37323。
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 BED 与 372 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36951，正式 DCMS 分析仍包含=37323。
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 背景协方差矩阵：
+                   FST LOG2_PI_RATIO      XPCLR
+FST           0.014693      0.013357   0.279290
+LOG2_PI_RATIO 0.013357      0.824818   2.426608
+XPCLR         0.279290      2.426608 119.889016
+[2026-09-15 09:58:39] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 背景相关矩阵：
+                   FST LOG2_PI_RATIO    XPCLR
+FST           1.000000      0.121336 0.210431
+LOG2_PI_RATIO 0.121336      1.000000 0.244023
+XPCLR         0.210431      0.244023 1.000000
+[2026-09-15 09:58:40] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 DCMS 完成：分析窗口=37323，阈值=top 0.05，名义窗口数=1867，实际标记=1867；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar1.DCMS.list
+[2026-09-15 09:58:41] [INFO] RefXianLandrace1.vs.CheckXianCultivar1 绘图完成：入选阈值 DCMS >= 4.99525，入选窗口=1867，重叠已知基因窗口=26，已知基因=11；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace1.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:41] [INFO] 开始处理：RefXianLandrace2.vs.CheckXianCultivar2
+[2026-09-15 09:58:42] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 原始区间数：PI=37612，FST=37618，XPCLR=38551。
+[2026-09-15 09:58:42] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 三种方法共有区间=37611；各方法因不共有而排除：PI=1，FST=7，XPCLR=940；全部方法区间并集=38552，其中非三者共有=941。
+[2026-09-15 09:58:42] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 共有区间中非有限统计值排除=254；正式分析保留=37357。
+[2026-09-15 09:58:42] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 BED 与 373 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36984，正式 DCMS 分析仍包含=37357。
+[2026-09-15 09:58:42] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 背景协方差矩阵：
+                   FST LOG2_PI_RATIO      XPCLR
+FST           0.005915      0.009243   0.231874
+LOG2_PI_RATIO 0.009243      0.680949   3.495252
+XPCLR         0.231874      3.495252 233.443137
+[2026-09-15 09:58:43] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 背景相关矩阵：
+                   FST LOG2_PI_RATIO    XPCLR
+FST           1.000000      0.145635 0.197327
+LOG2_PI_RATIO 0.145635      1.000000 0.277224
+XPCLR         0.197327      0.277224 1.000000
+[2026-09-15 09:58:43] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 DCMS 完成：分析窗口=37357，阈值=top 0.05，名义窗口数=1868，实际标记=1868；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar2.DCMS.list
+[2026-09-15 09:58:44] [INFO] RefXianLandrace2.vs.CheckXianCultivar2 绘图完成：入选阈值 DCMS >= 4.88592，入选窗口=1868，重叠已知基因窗口=22，已知基因=10；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar2.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar2.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:44] [INFO] 开始处理：RefXianLandrace2.vs.CheckXianCultivar1
+[2026-09-15 09:58:45] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 原始区间数：PI=37615，FST=37622，XPCLR=38551。
+[2026-09-15 09:58:46] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 三种方法共有区间=37614；各方法因不共有而排除：PI=1，FST=8，XPCLR=937；全部方法区间并集=38552，其中非三者共有=938。
+[2026-09-15 09:58:46] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 共有区间中非有限统计值排除=257；正式分析保留=37357。
+[2026-09-15 09:58:46] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 BED 与 373 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36984，正式 DCMS 分析仍包含=37357。
+[2026-09-15 09:58:46] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 背景协方差矩阵：
+                    FST LOG2_PI_RATIO      XPCLR
+FST            0.014254     -0.007963   0.339288
+LOG2_PI_RATIO -0.007963      0.810138   2.131746
+XPCLR          0.339288      2.131746 257.794680
+[2026-09-15 09:58:46] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 背景相关矩阵：
+                    FST LOG2_PI_RATIO    XPCLR
+FST            1.000000     -0.074104 0.176998
+LOG2_PI_RATIO -0.074104      1.000000 0.147509
+XPCLR          0.176998      0.147509 1.000000
+[2026-09-15 09:58:47] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 DCMS 完成：分析窗口=37357，阈值=top 0.05，名义窗口数=1868，实际标记=1868；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar1.DCMS.list
+[2026-09-15 09:58:47] [INFO] RefXianLandrace2.vs.CheckXianCultivar1 绘图完成：入选阈值 DCMS >= 5.0652，入选窗口=1868，重叠已知基因窗口=36，已知基因=14；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianLandrace2.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:47] [INFO] 开始处理：RefXianCultivar2.vs.CheckXianCultivar1
+[2026-09-15 09:58:48] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 原始区间数：PI=37615，FST=37622，XPCLR=38552。
+[2026-09-15 09:58:49] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 三种方法共有区间=37615；各方法因不共有而排除：PI=0，FST=7，XPCLR=937；全部方法区间并集=38552，其中非三者共有=937。
+[2026-09-15 09:58:49] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 共有区间中非有限统计值排除=266；正式分析保留=37349。
+[2026-09-15 09:58:49] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 BED 与 374 个共有有效窗口存在交集；这些窗口仅从协方差背景排除。协方差背景保留=36975，正式 DCMS 分析仍包含=37349。
+[2026-09-15 09:58:49] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 背景协方差矩阵：
+                    FST LOG2_PI_RATIO     XPCLR
+FST            0.010090     -0.003475  0.050657
+LOG2_PI_RATIO -0.003475      0.631441  0.823938
+XPCLR          0.050657      0.823938 29.110437
+[2026-09-15 09:58:49] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 背景相关矩阵：
+                    FST LOG2_PI_RATIO    XPCLR
+FST            1.000000     -0.043541 0.093472
+LOG2_PI_RATIO -0.043541      1.000000 0.192178
+XPCLR          0.093472      0.192178 1.000000
+[2026-09-15 09:58:50] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 DCMS 完成：分析窗口=37349，阈值=top 0.05，名义窗口数=1868，实际标记=1868；输出=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianCultivar2.vs.CheckXianCultivar1.DCMS.list
+[2026-09-15 09:58:51] [INFO] RefXianCultivar2.vs.CheckXianCultivar1 绘图完成：入选阈值 DCMS >= 5.00233，入选窗口=1868，重叠已知基因窗口=23，已知基因=13；PNG=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianCultivar2.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.png；PDF=/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/RefXianCultivar2.vs.CheckXianCultivar1.DCMS.top5pct.StarGene.pdf
+[2026-09-15 09:58:51] [INFO] 绘图汇总表：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/DCMS.top5pct.plot.summary.tsv
+[2026-09-15 09:58:51] [INFO] 所有比较的已知基因重叠汇总：/mnt/g/Rice20260731/SelectiveSweep/win50kstep10k/dcms/all_comparisons.DCMS.top5pct.StarGene.overlap.tsv
+[2026-09-15 09:58:51] [INFO] SelectiveSweep.DCMS.Calculate.Plot.R 全部完成：成功处理 6 个亚群对，生成 6 个 DCMS 文件、6 张 PNG 和 6 份 PDF。

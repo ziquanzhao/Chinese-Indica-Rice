@@ -1,0 +1,4 @@
+PopLDdecay -InVCF /mnt/g/Rice20260731/genotype/667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.vcf.gz -MaxDist 500 -SubPop ./Subgroup/XianCultivar2.list -OutStat XianCultivar2.PopLDdecay
+PopLDdecay -InVCF /mnt/g/Rice20260731/genotype/667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.vcf.gz -MaxDist 500 -SubPop ./Subgroup/XianLandrace1.list -OutStat XianLandrace1.PopLDdecay
+PopLDdecay -InVCF /mnt/g/Rice20260731/genotype/667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.vcf.gz -MaxDist 500 -SubPop ./Subgroup/XianLandrace2.list -OutStat XianLandrace2.PopLDdecay
+PopLDdecay -InVCF /mnt/g/Rice20260731/genotype/667XianSample.PASS.missing0.9.maf0.01.Biallelic.OnlyGT.WildOutgroup.OnlySNP.vcf.gz -MaxDist 500 -SubPop ./Subgroup/XianCultivar1.list -OutStat XianCultivar1.PopLDdecay
